@@ -10,9 +10,9 @@ export default function Page() {
         <div className="text-2xl font-bold mb-4 position-relative left-0">Platform Title</div>
           <button
             className="position-relative right-150 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 mt-2"
-            onClick={() => router.push("/landing")}
+            onClick={() => router.push("/about")}
           >
-            Sign In
+            About
           </button>
       </div>
     </div>
