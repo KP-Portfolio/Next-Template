@@ -25,7 +25,7 @@ export default function Landing() {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center h-screen w-full py-2 bg-gray-100">
+        <div className="flex flex-col items-center justify-center h-screen w-full py-2 bg-black-200">
             <h1 className="text-3xl font-bold mb-6">Sign In</h1>
             <input
                 type="email"
