@@ -1,3 +1,5 @@
+{/* Flow Chart Compatible File */}
+{/* Page Function Start */}
 "use client";
 
 import { useRouter } from "next/navigation";
@@ -50,3 +52,4 @@ export default function Landing() {
         </div>
     );
 }
+{/* Page Function End */}

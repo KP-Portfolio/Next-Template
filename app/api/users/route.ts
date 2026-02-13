@@ -1,3 +1,5 @@
+{/* Flow Chart Compatible File */}
+{/* API Function Start */}
 import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
@@ -19,3 +21,4 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Invalid credentials" }, { status: 401 });
   }
 }
+{/* API Function End */}
