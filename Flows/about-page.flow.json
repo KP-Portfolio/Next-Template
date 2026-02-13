@@ -1,0 +1,98 @@
+{
+  "nodes": [
+    {
+      "id": "preload-node",
+      "type": "default",
+      "data": { "label": "Preload Function" },
+      "position": { "x": 50, "y": 50 },
+      "style": { "background": "#9333ea", "color": "white", "border": "2px solid #7e22ce", "borderRadius": "8px", "width": "150px", "fontWeight": "bold" },
+      "handles": [
+        { "type": "source", "position": "right", "id": "preload-seq1" }
+      ]
+    },
+    {
+      "id": "page-node",
+      "type": "default",
+      "data": { "label": "Page Function" },
+      "position": { "x": 50, "y": 200 },
+      "style": { "background": "#9333ea", "color": "white", "border": "2px solid #7e22ce", "borderRadius": "8px", "width": "150px", "fontWeight": "bold" },
+      "handles": [
+        { "type": "source", "position": "right", "id": "page-seq1" },
+        { "type": "source", "position": "right", "id": "page-seq2" }
+      ]
+    },
+    {
+      "id": "nav-container",
+      "type": "default",
+      "data": { "label": "Nav Container" },
+      "position": { "x": 300, "y": 200 },
+      "style": { "background": "#eab308", "color": "black", "border": "2px solid #ca8a04", "borderRadius": "8px", "width": "140px" },
+      "handles": [{ "type": "target", "position": "left", "id": "nav-container-target" }]
+    },
+    {
+      "id": "nav-bar",
+      "type": "default",
+      "data": { "label": "Nav Bar" },
+      "position": { "x": 300, "y": 280 },
+      "style": { "background": "#22c55e", "color": "black", "border": "2px solid #16a34a", "borderRadius": "8px", "width": "140px" },
+      "handles": [
+        { "type": "target", "position": "left", "id": "nav-bar-target" },
+        { "type": "source", "position": "right", "id": "nav-bar-out" }
+      ]
+    },
+    {
+      "id": "nav-title",
+      "type": "default",
+      "data": { "label": "Title" },
+      "position": { "x": 480, "y": 250 },
+      "style": { "background": "#22c55e", "color": "black", "border": "2px solid #16a34a", "borderRadius": "8px", "width": "120px" },
+      "handles": [{ "type": "target", "position": "left", "id": "nav-title-target" }]
+    },
+    {
+      "id": "home-btn",
+      "type": "default",
+      "data": { "label": "Home Button" },
+      "position": { "x": 480, "y": 310 },
+      "style": { "background": "#22c55e", "color": "black", "border": "2px solid #16a34a", "borderRadius": "8px", "width": "140px" },
+      "handles": [{ "type": "target", "position": "left", "id": "home-btn-target" }]
+    },
+    {
+      "id": "content-container",
+      "type": "default",
+      "data": { "label": "Content Container" },
+      "position": { "x": 300, "y": 380 },
+      "style": { "background": "#eab308", "color": "black", "border": "2px solid #ca8a04", "borderRadius": "8px", "width": "140px" },
+      "handles": [{ "type": "target", "position": "left", "id": "content-container-target" }]
+    }
+  ],
+  "edges": [
+    {
+      "id": "page-to-nav-container",
+      "source": "page-node",
+      "target": "nav-container",
+      "sourceHandle": "page-seq1",
+      "targetHandle": "nav-container-target"
+    },
+    {
+      "id": "nav-bar-to-title",
+      "source": "nav-bar",
+      "target": "nav-title",
+      "sourceHandle": "nav-bar-out",
+      "targetHandle": "nav-title-target"
+    },
+    {
+      "id": "nav-bar-to-home",
+      "source": "nav-bar",
+      "target": "home-btn",
+      "sourceHandle": "nav-bar-out",
+      "targetHandle": "home-btn-target"
+    },
+    {
+      "id": "page-to-content-container",
+      "source": "page-node",
+      "target": "content-container",
+      "sourceHandle": "page-seq2",
+      "targetHandle": "content-container-target"
+    }
+  ]
+}
