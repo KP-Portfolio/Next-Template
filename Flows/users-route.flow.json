@@ -3,73 +3,203 @@
     {
       "id": "api-function",
       "type": "default",
-      "data": { "label": "API Function" },
-      "position": { "x": 50, "y": 50 },
-      "style": { "background": "#9333ea", "color": "white", "border": "2px solid #7e22ce", "borderRadius": "8px", "width": "150px", "fontWeight": "bold" },
+      "data": {
+        "label": "API Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
       "handles": [
-        { "type": "source", "position": "right", "id": "api-seq1" }
+        {
+          "type": "source",
+          "position": "right",
+          "id": "api-seq1"
+        }
       ]
     },
     {
       "id": "get-request",
       "type": "default",
-      "data": { "label": "GET Request" },
-      "position": { "x": 300, "y": 50 },
-      "style": { "background": "#06b6d4", "color": "white", "border": "2px solid #0891b2", "borderRadius": "8px", "width": "140px" },
+      "data": {
+        "label": "GET Request"
+      },
+      "position": {
+        "x": 300,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
       "handles": [
-        { "type": "target", "position": "left", "id": "get-request-target" },
-        { "type": "source", "position": "right", "id": "get-request-out" }
+        {
+          "type": "target",
+          "position": "left",
+          "id": "get-request-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "get-request-out"
+        }
       ]
     },
     {
       "id": "parse-params",
       "type": "default",
-      "data": { "label": "Parse Params" },
-      "position": { "x": 480, "y": 50 },
-      "style": { "background": "#06b6d4", "color": "white", "border": "2px solid #0891b2", "borderRadius": "8px", "width": "140px" },
+      "data": {
+        "label": "Parse Params"
+      },
+      "position": {
+        "x": 480,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
       "handles": [
-        { "type": "target", "position": "left", "id": "parse-params-target" },
-        { "type": "source", "position": "right", "id": "parse-params-out" }
+        {
+          "type": "target",
+          "position": "left",
+          "id": "parse-params-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "parse-params-out"
+        }
       ]
     },
     {
       "id": "fetch-users",
       "type": "default",
-      "data": { "label": "Fetch Users" },
-      "position": { "x": 650, "y": 50 },
-      "style": { "background": "#06b6d4", "color": "white", "border": "2px solid #0891b2", "borderRadius": "8px", "width": "140px" },
+      "data": {
+        "label": "Fetch Users"
+      },
+      "position": {
+        "x": 650,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
       "handles": [
-        { "type": "target", "position": "left", "id": "fetch-users-target" },
-        { "type": "source", "position": "right", "id": "fetch-users-out" }
+        {
+          "type": "target",
+          "position": "left",
+          "id": "fetch-users-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "fetch-users-out"
+        }
       ]
     },
     {
       "id": "find-user",
       "type": "default",
-      "data": { "label": "Find User" },
-      "position": { "x": 820, "y": 50 },
-      "style": { "background": "#06b6d4", "color": "white", "border": "2px solid #0891b2", "borderRadius": "8px", "width": "140px" },
+      "data": {
+        "label": "Find User"
+      },
+      "position": {
+        "x": 820,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
       "handles": [
-        { "type": "target", "position": "left", "id": "find-user-target" },
-        { "type": "source", "position": "right", "id": "find-user-found" },
-        { "type": "source", "position": "right", "id": "find-user-not-found" }
+        {
+          "type": "target",
+          "position": "left",
+          "id": "find-user-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "find-user-found"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "find-user-not-found"
+        }
       ]
     },
     {
       "id": "return-user",
       "type": "default",
-      "data": { "label": "Return User" },
-      "position": { "x": 990, "y": 20 },
-      "style": { "background": "#22c55e", "color": "black", "border": "2px solid #16a34a", "borderRadius": "8px", "width": "140px" },
-      "handles": [{ "type": "target", "position": "left", "id": "return-user-target" }]
+      "data": {
+        "label": "Return User"
+      },
+      "position": {
+        "x": 990,
+        "y": 20
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "return-user-target"
+        }
+      ]
     },
     {
       "id": "return-error",
       "type": "default",
-      "data": { "label": "Return Error" },
-      "position": { "x": 990, "y": 80 },
-      "style": { "background": "#ef4444", "color": "white", "border": "2px solid #dc2626", "borderRadius": "8px", "width": "140px" },
-      "handles": [{ "type": "target", "position": "left", "id": "return-error-target" }]
+      "data": {
+        "label": "Return Error"
+      },
+      "position": {
+        "x": 990,
+        "y": 80
+      },
+      "style": {
+        "background": "rgba(239, 68, 68, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "return-error-target"
+        }
+      ]
     }
   ],
   "edges": [

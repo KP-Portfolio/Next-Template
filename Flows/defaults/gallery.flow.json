@@ -1,0 +1,1295 @@
+{
+  "nodes": [
+    {
+      "id": "preload-node",
+      "type": "default",
+      "data": {
+        "label": "Preload Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "source",
+          "position": "right",
+          "id": "preload-seq1"
+        }
+      ]
+    },
+    {
+      "id": "page-node",
+      "type": "default",
+      "data": {
+        "label": "Page Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 200
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq1"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq2"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq3"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq4"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq5"
+        }
+      ]
+    },
+    {
+      "id": "handleAddToCart",
+      "type": "default",
+      "data": {
+        "label": "handleAddToCart"
+      },
+      "position": {
+        "x": 300,
+        "y": 130
+      },
+      "style": {
+        "background": "rgba(239, 68, 68, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "handleAddToCart-target"
+        }
+      ]
+    },
+    {
+      "id": "handleRemoveFromCart",
+      "type": "default",
+      "data": {
+        "label": "handleRemoveFromCart"
+      },
+      "position": {
+        "x": 300,
+        "y": 200
+      },
+      "style": {
+        "background": "rgba(239, 68, 68, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "handleRemoveFromCart-target"
+        }
+      ]
+    },
+    {
+      "id": "calculateTotal",
+      "type": "default",
+      "data": {
+        "label": "calculateTotal"
+      },
+      "position": {
+        "x": 300,
+        "y": 270
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "calculateTotal-target"
+        }
+      ]
+    },
+    {
+      "id": "handleCheckout",
+      "type": "default",
+      "data": {
+        "label": "handleCheckout"
+      },
+      "position": {
+        "x": 300,
+        "y": 340
+      },
+      "style": {
+        "background": "rgba(239, 68, 68, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "handleCheckout-target"
+        }
+      ]
+    },
+    {
+      "id": "getGridClasses",
+      "type": "default",
+      "data": {
+        "label": "getGridClasses"
+      },
+      "position": {
+        "x": 300,
+        "y": 410
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "getGridClasses-target"
+        }
+      ]
+    },
+    {
+      "id": "nav-container",
+      "type": "default",
+      "data": {
+        "label": "Nav Container"
+      },
+      "position": {
+        "x": 300,
+        "y": 500
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "nav-container-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "nav-container-out"
+        }
+      ]
+    },
+    {
+      "id": "gallery-title",
+      "type": "default",
+      "data": {
+        "label": "Gallery Title"
+      },
+      "position": {
+        "x": 480,
+        "y": 460
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "gallery-title-target"
+        }
+      ]
+    },
+    {
+      "id": "cart-badge",
+      "type": "default",
+      "data": {
+        "label": "Cart Badge"
+      },
+      "position": {
+        "x": 480,
+        "y": 520
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "cart-badge-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "cart-badge-out"
+        }
+      ]
+    },
+    {
+      "id": "item-count",
+      "type": "default",
+      "data": {
+        "label": "Item Count"
+      },
+      "position": {
+        "x": 650,
+        "y": 490
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "item-count-target"
+        }
+      ]
+    },
+    {
+      "id": "checkout-button",
+      "type": "default",
+      "data": {
+        "label": "Checkout Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 550
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "checkout-button-target"
+        }
+      ]
+    },
+    {
+      "id": "header-section",
+      "type": "default",
+      "data": {
+        "label": "Header Section"
+      },
+      "position": {
+        "x": 300,
+        "y": 620
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "header-section-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "header-section-out"
+        }
+      ]
+    },
+    {
+      "id": "page-title",
+      "type": "default",
+      "data": {
+        "label": "Page Title"
+      },
+      "position": {
+        "x": 480,
+        "y": 590
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "page-title-target"
+        }
+      ]
+    },
+    {
+      "id": "layout-selector",
+      "type": "default",
+      "data": {
+        "label": "Layout Selector"
+      },
+      "position": {
+        "x": 480,
+        "y": 650
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "layout-selector-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "layout-selector-out"
+        }
+      ]
+    },
+    {
+      "id": "layout-2-button",
+      "type": "default",
+      "data": {
+        "label": "Layout 2 Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 610
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "layout-2-target"
+        }
+      ]
+    },
+    {
+      "id": "layout-3-button",
+      "type": "default",
+      "data": {
+        "label": "Layout 3 Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 670
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "layout-3-target"
+        }
+      ]
+    },
+    {
+      "id": "layout-4-button",
+      "type": "default",
+      "data": {
+        "label": "Layout 4 Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 730
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "layout-4-target"
+        }
+      ]
+    },
+    {
+      "id": "gallery-grid",
+      "type": "default",
+      "data": {
+        "label": "Gallery Grid"
+      },
+      "position": {
+        "x": 300,
+        "y": 800
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "gallery-grid-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "gallery-grid-out"
+        }
+      ]
+    },
+    {
+      "id": "gallery-item-1",
+      "type": "default",
+      "data": {
+        "label": "Gallery Item 1"
+      },
+      "position": {
+        "x": 480,
+        "y": 760
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "gallery-item-1-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "gallery-item-1-out"
+        }
+      ]
+    },
+    {
+      "id": "item-1-add-to-cart",
+      "type": "default",
+      "data": {
+        "label": "Item 1 + Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 760
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "item-1-add-target"
+        }
+      ]
+    },
+    {
+      "id": "gallery-item-2",
+      "type": "default",
+      "data": {
+        "label": "Gallery Item 2"
+      },
+      "position": {
+        "x": 480,
+        "y": 820
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "gallery-item-2-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "gallery-item-2-out"
+        }
+      ]
+    },
+    {
+      "id": "item-2-add-to-cart",
+      "type": "default",
+      "data": {
+        "label": "Item 2 + Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 820
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "item-2-add-target"
+        }
+      ]
+    },
+    {
+      "id": "gallery-item-3",
+      "type": "default",
+      "data": {
+        "label": "Gallery Item 3"
+      },
+      "position": {
+        "x": 480,
+        "y": 880
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "gallery-item-3-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "gallery-item-3-out"
+        }
+      ]
+    },
+    {
+      "id": "item-3-add-to-cart",
+      "type": "default",
+      "data": {
+        "label": "Item 3 + Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 880
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "item-3-add-target"
+        }
+      ]
+    },
+    {
+      "id": "pagination",
+      "type": "default",
+      "data": {
+        "label": "Pagination"
+      },
+      "position": {
+        "x": 300,
+        "y": 1000
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "pagination-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "pagination-out"
+        }
+      ]
+    },
+    {
+      "id": "prev-page-button",
+      "type": "default",
+      "data": {
+        "label": "Previous Button"
+      },
+      "position": {
+        "x": 480,
+        "y": 980
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "prev-page-target"
+        }
+      ]
+    },
+    {
+      "id": "next-page-button",
+      "type": "default",
+      "data": {
+        "label": "Next Button"
+      },
+      "position": {
+        "x": 480,
+        "y": 1040
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "next-page-target"
+        }
+      ]
+    },
+    {
+      "id": "checkout-modal",
+      "type": "default",
+      "data": {
+        "label": "Checkout Modal"
+      },
+      "position": {
+        "x": 300,
+        "y": 1150
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "modal-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "modal-out"
+        }
+      ]
+    },
+    {
+      "id": "modal-title",
+      "type": "default",
+      "data": {
+        "label": "Modal Title"
+      },
+      "position": {
+        "x": 480,
+        "y": 1100
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "modal-title-target"
+        }
+      ]
+    },
+    {
+      "id": "cart-item-list",
+      "type": "default",
+      "data": {
+        "label": "Cart Item List"
+      },
+      "position": {
+        "x": 480,
+        "y": 1160
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "cart-list-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "cart-list-out"
+        }
+      ]
+    },
+    {
+      "id": "order-total",
+      "type": "default",
+      "data": {
+        "label": "Order Total"
+      },
+      "position": {
+        "x": 480,
+        "y": 1220
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "order-total-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "order-total-out"
+        }
+      ]
+    },
+    {
+      "id": "payment-form",
+      "type": "default",
+      "data": {
+        "label": "Payment Form"
+      },
+      "position": {
+        "x": 480,
+        "y": 1280
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "payment-form-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "payment-form-out"
+        }
+      ]
+    },
+    {
+      "id": "card-input",
+      "type": "default",
+      "data": {
+        "label": "Card Input"
+      },
+      "position": {
+        "x": 650,
+        "y": 1250
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "card-input-target"
+        }
+      ]
+    },
+    {
+      "id": "expiry-cvc-inputs",
+      "type": "default",
+      "data": {
+        "label": "Expiry/CVC"
+      },
+      "position": {
+        "x": 650,
+        "y": 1310
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "expiry-cvc-target"
+        }
+      ]
+    },
+    {
+      "id": "modal-actions",
+      "type": "default",
+      "data": {
+        "label": "Modal Actions"
+      },
+      "position": {
+        "x": 480,
+        "y": 1340
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "modal-actions-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "modal-actions-out"
+        }
+      ]
+    },
+    {
+      "id": "cancel-button",
+      "type": "default",
+      "data": {
+        "label": "Cancel Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 1310
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "cancel-btn-target"
+        }
+      ]
+    },
+    {
+      "id": "purchase-button",
+      "type": "default",
+      "data": {
+        "label": "Purchase Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 1370
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "purchase-btn-target"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "page-to-handleAddToCart",
+      "source": "page-node",
+      "target": "handleAddToCart",
+      "sourceHandle": "page-seq1",
+      "targetHandle": "handleAddToCart-target"
+    },
+    {
+      "id": "page-to-handleRemoveFromCart",
+      "source": "page-node",
+      "target": "handleRemoveFromCart",
+      "sourceHandle": "page-seq2",
+      "targetHandle": "handleRemoveFromCart-target"
+    },
+    {
+      "id": "page-to-calculateTotal",
+      "source": "page-node",
+      "target": "calculateTotal",
+      "sourceHandle": "page-seq3",
+      "targetHandle": "calculateTotal-target"
+    },
+    {
+      "id": "page-to-handleCheckout",
+      "source": "page-node",
+      "target": "handleCheckout",
+      "sourceHandle": "page-seq4",
+      "targetHandle": "handleCheckout-target"
+    },
+    {
+      "id": "page-to-getGridClasses",
+      "source": "page-node",
+      "target": "getGridClasses",
+      "sourceHandle": "page-seq5",
+      "targetHandle": "getGridClasses-target"
+    },
+    {
+      "id": "page-to-nav",
+      "source": "page-node",
+      "target": "nav-container"
+    },
+    {
+      "id": "nav-to-gallery-title",
+      "source": "nav-container",
+      "target": "gallery-title",
+      "sourceHandle": "nav-container-out",
+      "targetHandle": "gallery-title-target"
+    },
+    {
+      "id": "nav-to-cart-badge",
+      "source": "nav-container",
+      "target": "cart-badge",
+      "sourceHandle": "nav-container-out",
+      "targetHandle": "cart-badge-target"
+    },
+    {
+      "id": "cart-badge-to-count",
+      "source": "cart-badge",
+      "target": "item-count",
+      "sourceHandle": "cart-badge-out",
+      "targetHandle": "item-count-target"
+    },
+    {
+      "id": "cart-badge-to-checkout",
+      "source": "cart-badge",
+      "target": "checkout-button",
+      "sourceHandle": "cart-badge-out",
+      "targetHandle": "checkout-button-target"
+    },
+    {
+      "id": "page-to-header-section",
+      "source": "page-node",
+      "target": "header-section"
+    },
+    {
+      "id": "header-to-title",
+      "source": "header-section",
+      "target": "page-title",
+      "sourceHandle": "header-section-out",
+      "targetHandle": "page-title-target"
+    },
+    {
+      "id": "header-to-layout",
+      "source": "header-section",
+      "target": "layout-selector",
+      "sourceHandle": "header-section-out",
+      "targetHandle": "layout-selector-target"
+    },
+    {
+      "id": "layout-to-button-2",
+      "source": "layout-selector",
+      "target": "layout-2-button",
+      "sourceHandle": "layout-selector-out",
+      "targetHandle": "layout-2-target"
+    },
+    {
+      "id": "layout-to-button-3",
+      "source": "layout-selector",
+      "target": "layout-3-button",
+      "sourceHandle": "layout-selector-out",
+      "targetHandle": "layout-3-target"
+    },
+    {
+      "id": "layout-to-button-4",
+      "source": "layout-selector",
+      "target": "layout-4-button",
+      "sourceHandle": "layout-selector-out",
+      "targetHandle": "layout-4-target"
+    },
+    {
+      "id": "page-to-gallery-grid",
+      "source": "page-node",
+      "target": "gallery-grid"
+    },
+    {
+      "id": "grid-to-item-1",
+      "source": "gallery-grid",
+      "target": "gallery-item-1",
+      "sourceHandle": "gallery-grid-out",
+      "targetHandle": "gallery-item-1-target"
+    },
+    {
+      "id": "item-1-to-add-cart",
+      "source": "gallery-item-1",
+      "target": "item-1-add-to-cart",
+      "sourceHandle": "gallery-item-1-out",
+      "targetHandle": "item-1-add-target"
+    },
+    {
+      "id": "grid-to-item-2",
+      "source": "gallery-grid",
+      "target": "gallery-item-2",
+      "sourceHandle": "gallery-grid-out",
+      "targetHandle": "gallery-item-2-target"
+    },
+    {
+      "id": "item-2-to-add-cart",
+      "source": "gallery-item-2",
+      "target": "item-2-add-to-cart",
+      "sourceHandle": "gallery-item-2-out",
+      "targetHandle": "item-2-add-target"
+    },
+    {
+      "id": "grid-to-item-3",
+      "source": "gallery-grid",
+      "target": "gallery-item-3",
+      "sourceHandle": "gallery-grid-out",
+      "targetHandle": "gallery-item-3-target"
+    },
+    {
+      "id": "item-3-to-add-cart",
+      "source": "gallery-item-3",
+      "target": "item-3-add-to-cart",
+      "sourceHandle": "gallery-item-3-out",
+      "targetHandle": "item-3-add-target"
+    },
+    {
+      "id": "page-to-pagination",
+      "source": "page-node",
+      "target": "pagination"
+    },
+    {
+      "id": "pagination-to-prev",
+      "source": "pagination",
+      "target": "prev-page-button",
+      "sourceHandle": "pagination-out",
+      "targetHandle": "prev-page-target"
+    },
+    {
+      "id": "pagination-to-next",
+      "source": "pagination",
+      "target": "next-page-button",
+      "sourceHandle": "pagination-out",
+      "targetHandle": "next-page-target"
+    },
+    {
+      "id": "page-to-modal",
+      "source": "page-node",
+      "target": "checkout-modal"
+    },
+    {
+      "id": "modal-to-title",
+      "source": "checkout-modal",
+      "target": "modal-title",
+      "sourceHandle": "modal-out",
+      "targetHandle": "modal-title-target"
+    },
+    {
+      "id": "modal-to-cart-list",
+      "source": "checkout-modal",
+      "target": "cart-item-list",
+      "sourceHandle": "modal-out",
+      "targetHandle": "cart-list-target"
+    },
+    {
+      "id": "cart-list-to-total",
+      "source": "cart-item-list",
+      "target": "order-total",
+      "sourceHandle": "cart-list-out",
+      "targetHandle": "order-total-target"
+    },
+    {
+      "id": "total-to-payment",
+      "source": "order-total",
+      "target": "payment-form",
+      "sourceHandle": "order-total-out",
+      "targetHandle": "payment-form-target"
+    },
+    {
+      "id": "payment-to-card",
+      "source": "payment-form",
+      "target": "card-input",
+      "sourceHandle": "payment-form-out",
+      "targetHandle": "card-input-target"
+    },
+    {
+      "id": "payment-to-expiry",
+      "source": "payment-form",
+      "target": "expiry-cvc-inputs",
+      "sourceHandle": "payment-form-out",
+      "targetHandle": "expiry-cvc-target"
+    },
+    {
+      "id": "payment-to-actions",
+      "source": "payment-form",
+      "target": "modal-actions",
+      "sourceHandle": "payment-form-out",
+      "targetHandle": "modal-actions-target"
+    },
+    {
+      "id": "actions-to-cancel",
+      "source": "modal-actions",
+      "target": "cancel-button",
+      "sourceHandle": "modal-actions-out",
+      "targetHandle": "cancel-btn-target"
+    },
+    {
+      "id": "actions-to-purchase",
+      "source": "modal-actions",
+      "target": "purchase-button",
+      "sourceHandle": "modal-actions-out",
+      "targetHandle": "purchase-btn-target"
+    }
+  ]
+}

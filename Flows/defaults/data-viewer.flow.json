@@ -1,0 +1,1237 @@
+{
+  "nodes": [
+    {
+      "id": "preload-node",
+      "type": "default",
+      "data": {
+        "label": "Preload Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "source",
+          "position": "right",
+          "id": "preload-seq1"
+        }
+      ]
+    },
+    {
+      "id": "page-node",
+      "type": "default",
+      "data": {
+        "label": "Page Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 200
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq1"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq2"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq3"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq4"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq5"
+        }
+      ]
+    },
+    {
+      "id": "handleTableSwitch",
+      "type": "default",
+      "data": {
+        "label": "handleTableSwitch"
+      },
+      "position": {
+        "x": 300,
+        "y": 130
+      },
+      "style": {
+        "background": "rgba(239, 68, 68, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "handleTableSwitch-target"
+        }
+      ]
+    },
+    {
+      "id": "handleSearch",
+      "type": "default",
+      "data": {
+        "label": "handleSearch"
+      },
+      "position": {
+        "x": 300,
+        "y": 200
+      },
+      "style": {
+        "background": "rgba(239, 68, 68, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "handleSearch-target"
+        }
+      ]
+    },
+    {
+      "id": "getFilteredData",
+      "type": "default",
+      "data": {
+        "label": "getFilteredData"
+      },
+      "position": {
+        "x": 300,
+        "y": 270
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "getFilteredData-target"
+        }
+      ]
+    },
+    {
+      "id": "getPaginatedData",
+      "type": "default",
+      "data": {
+        "label": "getPaginatedData"
+      },
+      "position": {
+        "x": 300,
+        "y": 340
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "getPaginatedData-target"
+        }
+      ]
+    },
+    {
+      "id": "getTotalPages",
+      "type": "default",
+      "data": {
+        "label": "getTotalPages"
+      },
+      "position": {
+        "x": 300,
+        "y": 410
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "getTotalPages-target"
+        }
+      ]
+    },
+    {
+      "id": "side-panel",
+      "type": "default",
+      "data": {
+        "label": "Side Panel"
+      },
+      "position": {
+        "x": 300,
+        "y": 520
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "side-panel-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "side-panel-out"
+        }
+      ]
+    },
+    {
+      "id": "panel-title",
+      "type": "default",
+      "data": {
+        "label": "Panel Title"
+      },
+      "position": {
+        "x": 480,
+        "y": 480
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "panel-title-target"
+        }
+      ]
+    },
+    {
+      "id": "table-list",
+      "type": "default",
+      "data": {
+        "label": "Table List"
+      },
+      "position": {
+        "x": 480,
+        "y": 540
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-list-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "table-list-out"
+        }
+      ]
+    },
+    {
+      "id": "table-option-1",
+      "type": "default",
+      "data": {
+        "label": "Table Option 1"
+      },
+      "position": {
+        "x": 650,
+        "y": 480
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-option-1-target"
+        }
+      ]
+    },
+    {
+      "id": "table-option-2",
+      "type": "default",
+      "data": {
+        "label": "Table Option 2"
+      },
+      "position": {
+        "x": 650,
+        "y": 540
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-option-2-target"
+        }
+      ]
+    },
+    {
+      "id": "table-option-3",
+      "type": "default",
+      "data": {
+        "label": "Table Option 3"
+      },
+      "position": {
+        "x": 650,
+        "y": 600
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-option-3-target"
+        }
+      ]
+    },
+    {
+      "id": "table-option-4",
+      "type": "default",
+      "data": {
+        "label": "Table Option 4"
+      },
+      "position": {
+        "x": 650,
+        "y": 660
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-option-4-target"
+        }
+      ]
+    },
+    {
+      "id": "main-content",
+      "type": "default",
+      "data": {
+        "label": "Main Content"
+      },
+      "position": {
+        "x": 300,
+        "y": 700
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "main-content-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "main-content-out"
+        }
+      ]
+    },
+    {
+      "id": "nav-container",
+      "type": "default",
+      "data": {
+        "label": "Nav Container"
+      },
+      "position": {
+        "x": 480,
+        "y": 660
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "nav-container-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "nav-container-out"
+        }
+      ]
+    },
+    {
+      "id": "page-info",
+      "type": "default",
+      "data": {
+        "label": "Page Info"
+      },
+      "position": {
+        "x": 650,
+        "y": 640
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "page-info-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-info-out"
+        }
+      ]
+    },
+    {
+      "id": "page-title",
+      "type": "default",
+      "data": {
+        "label": "Page Title"
+      },
+      "position": {
+        "x": 820,
+        "y": 610
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "page-title-target"
+        }
+      ]
+    },
+    {
+      "id": "table-name",
+      "type": "default",
+      "data": {
+        "label": "Table Name"
+      },
+      "position": {
+        "x": 820,
+        "y": 670
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-name-target"
+        }
+      ]
+    },
+    {
+      "id": "back-button",
+      "type": "default",
+      "data": {
+        "label": "Back Button"
+      },
+      "position": {
+        "x": 650,
+        "y": 700
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "back-button-target"
+        }
+      ]
+    },
+    {
+      "id": "content-area",
+      "type": "default",
+      "data": {
+        "label": "Content Area"
+      },
+      "position": {
+        "x": 480,
+        "y": 780
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "content-area-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "content-area-out"
+        }
+      ]
+    },
+    {
+      "id": "search-bar-container",
+      "type": "default",
+      "data": {
+        "label": "Search Bar Container"
+      },
+      "position": {
+        "x": 650,
+        "y": 760
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "search-bar-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "search-bar-out"
+        }
+      ]
+    },
+    {
+      "id": "search-input",
+      "type": "default",
+      "data": {
+        "label": "Search Input"
+      },
+      "position": {
+        "x": 820,
+        "y": 730
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "search-input-target"
+        }
+      ]
+    },
+    {
+      "id": "results-info",
+      "type": "default",
+      "data": {
+        "label": "Results Info"
+      },
+      "position": {
+        "x": 820,
+        "y": 790
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "results-info-target"
+        }
+      ]
+    },
+    {
+      "id": "table-container",
+      "type": "default",
+      "data": {
+        "label": "Table Container"
+      },
+      "position": {
+        "x": 650,
+        "y": 880
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-container-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "table-container-out"
+        }
+      ]
+    },
+    {
+      "id": "table",
+      "type": "default",
+      "data": {
+        "label": "Table"
+      },
+      "position": {
+        "x": 820,
+        "y": 850
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "table-out"
+        }
+      ]
+    },
+    {
+      "id": "table-header",
+      "type": "default",
+      "data": {
+        "label": "Table Header"
+      },
+      "position": {
+        "x": 990,
+        "y": 800
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-header-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "table-header-out"
+        }
+      ]
+    },
+    {
+      "id": "header-cells",
+      "type": "default",
+      "data": {
+        "label": "Header Cells"
+      },
+      "position": {
+        "x": 990,
+        "y": 860
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "header-cells-target"
+        }
+      ]
+    },
+    {
+      "id": "table-body",
+      "type": "default",
+      "data": {
+        "label": "Table Body"
+      },
+      "position": {
+        "x": 990,
+        "y": 920
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "table-body-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "table-body-out"
+        }
+      ]
+    },
+    {
+      "id": "data-rows",
+      "type": "default",
+      "data": {
+        "label": "Data Rows"
+      },
+      "position": {
+        "x": 990,
+        "y": 980
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "data-rows-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "data-rows-out"
+        }
+      ]
+    },
+    {
+      "id": "status-badges",
+      "type": "default",
+      "data": {
+        "label": "Status Badges"
+      },
+      "position": {
+        "x": 990,
+        "y": 1040
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "status-badges-target"
+        }
+      ]
+    },
+    {
+      "id": "pagination-controls",
+      "type": "default",
+      "data": {
+        "label": "Pagination Controls"
+      },
+      "position": {
+        "x": 650,
+        "y": 1050
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "pagination-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "pagination-out"
+        }
+      ]
+    },
+    {
+      "id": "pagination-info",
+      "type": "default",
+      "data": {
+        "label": "Pagination Info"
+      },
+      "position": {
+        "x": 820,
+        "y": 1020
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "pagination-info-target"
+        }
+      ]
+    },
+    {
+      "id": "pagination-buttons",
+      "type": "default",
+      "data": {
+        "label": "Pagination Buttons"
+      },
+      "position": {
+        "x": 820,
+        "y": 1080
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "pagination-buttons-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "pagination-buttons-out"
+        }
+      ]
+    },
+    {
+      "id": "prev-button",
+      "type": "default",
+      "data": {
+        "label": "Previous Button"
+      },
+      "position": {
+        "x": 990,
+        "y": 1050
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "prev-button-target"
+        }
+      ]
+    },
+    {
+      "id": "next-button",
+      "type": "default",
+      "data": {
+        "label": "Next Button"
+      },
+      "position": {
+        "x": 990,
+        "y": 1110
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "next-button-target"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "page-to-handleTableSwitch",
+      "source": "page-node",
+      "target": "handleTableSwitch",
+      "sourceHandle": "page-seq1",
+      "targetHandle": "handleTableSwitch-target"
+    },
+    {
+      "id": "page-to-handleSearch",
+      "source": "page-node",
+      "target": "handleSearch",
+      "sourceHandle": "page-seq2",
+      "targetHandle": "handleSearch-target"
+    },
+    {
+      "id": "page-to-getFilteredData",
+      "source": "page-node",
+      "target": "getFilteredData",
+      "sourceHandle": "page-seq3",
+      "targetHandle": "getFilteredData-target"
+    },
+    {
+      "id": "page-to-getPaginatedData",
+      "source": "page-node",
+      "target": "getPaginatedData",
+      "sourceHandle": "page-seq4",
+      "targetHandle": "getPaginatedData-target"
+    },
+    {
+      "id": "page-to-getTotalPages",
+      "source": "page-node",
+      "target": "getTotalPages",
+      "sourceHandle": "page-seq5",
+      "targetHandle": "getTotalPages-target"
+    },
+    {
+      "id": "page-to-side-panel",
+      "source": "page-node",
+      "target": "side-panel"
+    },
+    {
+      "id": "side-panel-to-title",
+      "source": "side-panel",
+      "target": "panel-title",
+      "sourceHandle": "side-panel-out",
+      "targetHandle": "panel-title-target"
+    },
+    {
+      "id": "side-panel-to-table-list",
+      "source": "side-panel",
+      "target": "table-list",
+      "sourceHandle": "side-panel-out",
+      "targetHandle": "table-list-target"
+    },
+    {
+      "id": "table-list-to-option-1",
+      "source": "table-list",
+      "target": "table-option-1",
+      "sourceHandle": "table-list-out",
+      "targetHandle": "table-option-1-target"
+    },
+    {
+      "id": "table-list-to-option-2",
+      "source": "table-list",
+      "target": "table-option-2",
+      "sourceHandle": "table-list-out",
+      "targetHandle": "table-option-2-target"
+    },
+    {
+      "id": "table-list-to-option-3",
+      "source": "table-list",
+      "target": "table-option-3",
+      "sourceHandle": "table-list-out",
+      "targetHandle": "table-option-3-target"
+    },
+    {
+      "id": "table-list-to-option-4",
+      "source": "table-list",
+      "target": "table-option-4",
+      "sourceHandle": "table-list-out",
+      "targetHandle": "table-option-4-target"
+    },
+    {
+      "id": "page-to-main-content",
+      "source": "page-node",
+      "target": "main-content"
+    },
+    {
+      "id": "main-content-to-nav",
+      "source": "main-content",
+      "target": "nav-container",
+      "sourceHandle": "main-content-out",
+      "targetHandle": "nav-container-target"
+    },
+    {
+      "id": "nav-to-page-info",
+      "source": "nav-container",
+      "target": "page-info",
+      "sourceHandle": "nav-container-out",
+      "targetHandle": "page-info-target"
+    },
+    {
+      "id": "nav-to-back-button",
+      "source": "nav-container",
+      "target": "back-button",
+      "sourceHandle": "nav-container-out",
+      "targetHandle": "back-button-target"
+    },
+    {
+      "id": "page-info-to-title",
+      "source": "page-info",
+      "target": "page-title",
+      "sourceHandle": "page-info-out",
+      "targetHandle": "page-title-target"
+    },
+    {
+      "id": "page-info-to-table-name",
+      "source": "page-info",
+      "target": "table-name",
+      "sourceHandle": "page-info-out",
+      "targetHandle": "table-name-target"
+    },
+    {
+      "id": "main-content-to-content-area",
+      "source": "main-content",
+      "target": "content-area",
+      "sourceHandle": "main-content-out",
+      "targetHandle": "content-area-target"
+    },
+    {
+      "id": "content-area-to-search",
+      "source": "content-area",
+      "target": "search-bar-container",
+      "sourceHandle": "content-area-out",
+      "targetHandle": "search-bar-target"
+    },
+    {
+      "id": "content-area-to-table",
+      "source": "content-area",
+      "target": "table-container",
+      "sourceHandle": "content-area-out",
+      "targetHandle": "table-container-target"
+    },
+    {
+      "id": "content-area-to-pagination",
+      "source": "content-area",
+      "target": "pagination-controls",
+      "sourceHandle": "content-area-out",
+      "targetHandle": "pagination-target"
+    },
+    {
+      "id": "search-bar-to-input",
+      "source": "search-bar-container",
+      "target": "search-input",
+      "sourceHandle": "search-bar-out",
+      "targetHandle": "search-input-target"
+    },
+    {
+      "id": "search-bar-to-results",
+      "source": "search-bar-container",
+      "target": "results-info",
+      "sourceHandle": "search-bar-out",
+      "targetHandle": "results-info-target"
+    },
+    {
+      "id": "table-container-to-table",
+      "source": "table-container",
+      "target": "table",
+      "sourceHandle": "table-container-out",
+      "targetHandle": "table-target"
+    },
+    {
+      "id": "table-to-header",
+      "source": "table",
+      "target": "table-header",
+      "sourceHandle": "table-out",
+      "targetHandle": "table-header-target"
+    },
+    {
+      "id": "table-to-body",
+      "source": "table",
+      "target": "table-body",
+      "sourceHandle": "table-out",
+      "targetHandle": "table-body-target"
+    },
+    {
+      "id": "table-header-to-cells",
+      "source": "table-header",
+      "target": "header-cells",
+      "sourceHandle": "table-header-out",
+      "targetHandle": "header-cells-target"
+    },
+    {
+      "id": "table-body-to-data-rows",
+      "source": "table-body",
+      "target": "data-rows",
+      "sourceHandle": "table-body-out",
+      "targetHandle": "data-rows-target"
+    },
+    {
+      "id": "data-rows-to-badges",
+      "source": "data-rows",
+      "target": "status-badges",
+      "sourceHandle": "data-rows-out",
+      "targetHandle": "status-badges-target"
+    },
+    {
+      "id": "pagination-to-info",
+      "source": "pagination-controls",
+      "target": "pagination-info",
+      "sourceHandle": "pagination-out",
+      "targetHandle": "pagination-info-target"
+    },
+    {
+      "id": "pagination-to-buttons",
+      "source": "pagination-controls",
+      "target": "pagination-buttons",
+      "sourceHandle": "pagination-out",
+      "targetHandle": "pagination-buttons-target"
+    },
+    {
+      "id": "pagination-buttons-to-prev",
+      "source": "pagination-buttons",
+      "target": "prev-button",
+      "sourceHandle": "pagination-buttons-out",
+      "targetHandle": "prev-button-target"
+    },
+    {
+      "id": "pagination-buttons-to-next",
+      "source": "pagination-buttons",
+      "target": "next-button",
+      "sourceHandle": "pagination-buttons-out",
+      "targetHandle": "next-button-target"
+    }
+  ]
+}

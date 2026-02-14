@@ -3,66 +3,189 @@
     {
       "id": "preload-node",
       "type": "default",
-      "data": { "label": "Preload Function" },
-      "position": { "x": 50, "y": 50 },
-      "style": { "background": "#9333ea", "color": "white", "border": "2px solid #7e22ce", "borderRadius": "8px", "width": "150px", "fontWeight": "bold" },
+      "data": {
+        "label": "Preload Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
       "handles": [
-        { "type": "source", "position": "right", "id": "preload-seq1" }
+        {
+          "type": "source",
+          "position": "right",
+          "id": "preload-seq1"
+        }
       ]
     },
     {
       "id": "page-node",
       "type": "default",
-      "data": { "label": "Page Function" },
-      "position": { "x": 50, "y": 200 },
-      "style": { "background": "#9333ea", "color": "white", "border": "2px solid #7e22ce", "borderRadius": "8px", "width": "150px", "fontWeight": "bold" },
+      "data": {
+        "label": "Page Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 200
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
       "handles": [
-        { "type": "source", "position": "right", "id": "page-seq1" },
-        { "type": "source", "position": "right", "id": "page-seq2" }
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq1"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq2"
+        }
       ]
     },
     {
       "id": "nav-container",
       "type": "default",
-      "data": { "label": "Nav Container" },
-      "position": { "x": 300, "y": 200 },
-      "style": { "background": "#eab308", "color": "black", "border": "2px solid #ca8a04", "borderRadius": "8px", "width": "140px" },
-      "handles": [{ "type": "target", "position": "left", "id": "nav-container-target" }]
+      "data": {
+        "label": "Nav Container"
+      },
+      "position": {
+        "x": 300,
+        "y": 200
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "nav-container-target"
+        }
+      ]
     },
     {
       "id": "nav-bar",
       "type": "default",
-      "data": { "label": "Nav Bar" },
-      "position": { "x": 300, "y": 280 },
-      "style": { "background": "#22c55e", "color": "black", "border": "2px solid #16a34a", "borderRadius": "8px", "width": "140px" },
+      "data": {
+        "label": "Nav Bar"
+      },
+      "position": {
+        "x": 300,
+        "y": 280
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
       "handles": [
-        { "type": "target", "position": "left", "id": "nav-bar-target" },
-        { "type": "source", "position": "right", "id": "nav-bar-out" }
+        {
+          "type": "target",
+          "position": "left",
+          "id": "nav-bar-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "nav-bar-out"
+        }
       ]
     },
     {
       "id": "nav-title",
       "type": "default",
-      "data": { "label": "Title" },
-      "position": { "x": 480, "y": 250 },
-      "style": { "background": "#22c55e", "color": "black", "border": "2px solid #16a34a", "borderRadius": "8px", "width": "120px" },
-      "handles": [{ "type": "target", "position": "left", "id": "nav-title-target" }]
+      "data": {
+        "label": "Title"
+      },
+      "position": {
+        "x": 480,
+        "y": 250
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "nav-title-target"
+        }
+      ]
     },
     {
       "id": "about-btn",
       "type": "default",
-      "data": { "label": "About Button" },
-      "position": { "x": 480, "y": 310 },
-      "style": { "background": "#22c55e", "color": "black", "border": "2px solid #16a34a", "borderRadius": "8px", "width": "140px" },
-      "handles": [{ "type": "target", "position": "left", "id": "about-btn-target" }]
+      "data": {
+        "label": "About Button"
+      },
+      "position": {
+        "x": 480,
+        "y": 310
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "about-btn-target"
+        }
+      ]
     },
     {
       "id": "content-container",
       "type": "default",
-      "data": { "label": "Content Container" },
-      "position": { "x": 300, "y": 380 },
-      "style": { "background": "#eab308", "color": "black", "border": "2px solid #ca8a04", "borderRadius": "8px", "width": "140px" },
-      "handles": [{ "type": "target", "position": "left", "id": "content-container-target" }]
+      "data": {
+        "label": "Content Container"
+      },
+      "position": {
+        "x": 300,
+        "y": 380
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "content-container-target"
+        }
+      ]
     }
   ],
   "edges": [

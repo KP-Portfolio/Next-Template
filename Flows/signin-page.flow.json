@@ -1,0 +1,518 @@
+{
+  "nodes": [
+    {
+      "id": "preload-node",
+      "type": "default",
+      "data": {
+        "label": "Preload Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "source",
+          "position": "right",
+          "id": "preload-seq1"
+        }
+      ]
+    },
+    {
+      "id": "page-node",
+      "type": "default",
+      "data": {
+        "label": "Page Function"
+      },
+      "position": {
+        "x": 50,
+        "y": 200
+      },
+      "style": {
+        "background": "rgba(147, 51, 234, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "150px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "source",
+          "position": "right",
+          "id": "page-seq1"
+        }
+      ]
+    },
+    {
+      "id": "handleSignIn",
+      "type": "default",
+      "data": {
+        "label": "handleSignIn"
+      },
+      "position": {
+        "x": 300,
+        "y": 200
+      },
+      "style": {
+        "background": "rgba(239, 68, 68, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "140px",
+        "fontWeight": "bold",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "handleSignIn-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "handleSignIn-fetch"
+        }
+      ]
+    },
+    {
+      "id": "fetch-call",
+      "type": "default",
+      "data": {
+        "label": "Fetch"
+      },
+      "position": {
+        "x": 480,
+        "y": 150
+      },
+      "style": {
+        "background": "rgba(249, 115, 22, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "fetch-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "fetch-then"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "fetch-catch"
+        }
+      ]
+    },
+    {
+      "id": "then-handler",
+      "type": "default",
+      "data": {
+        "label": "Then"
+      },
+      "position": {
+        "x": 650,
+        "y": 100
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "then-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "then-if"
+        }
+      ]
+    },
+    {
+      "id": "response-check",
+      "type": "default",
+      "data": {
+        "label": "If/Else"
+      },
+      "position": {
+        "x": 820,
+        "y": 50
+      },
+      "style": {
+        "background": "rgba(139, 92, 246, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "response-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "response-ok"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "response-fail"
+        }
+      ]
+    },
+    {
+      "id": "router-push",
+      "type": "default",
+      "data": {
+        "label": "Router"
+      },
+      "position": {
+        "x": 990,
+        "y": 20
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "router-target"
+        }
+      ]
+    },
+    {
+      "id": "alert-invalid",
+      "type": "default",
+      "data": {
+        "label": "Alert"
+      },
+      "position": {
+        "x": 990,
+        "y": 80
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "alert-target"
+        }
+      ]
+    },
+    {
+      "id": "catch-handler",
+      "type": "default",
+      "data": {
+        "label": "Catch"
+      },
+      "position": {
+        "x": 650,
+        "y": 180
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "catch-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "catch-console"
+        }
+      ]
+    },
+    {
+      "id": "console-error",
+      "type": "default",
+      "data": {
+        "label": "Console Error"
+      },
+      "position": {
+        "x": 820,
+        "y": 150
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "console-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "console-alert"
+        }
+      ]
+    },
+    {
+      "id": "alert-error",
+      "type": "default",
+      "data": {
+        "label": "Alert"
+      },
+      "position": {
+        "x": 990,
+        "y": 150
+      },
+      "style": {
+        "background": "rgba(6, 182, 212, 0.5)",
+        "color": "white",
+        "borderRadius": "8px",
+        "width": "120px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "alert-error-target"
+        }
+      ]
+    },
+    {
+      "id": "sign-in-header",
+      "type": "default",
+      "data": {
+        "label": "Sign In Header"
+      },
+      "position": {
+        "x": 300,
+        "y": 350
+      },
+      "style": {
+        "background": "rgba(234, 179, 8, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "sign-in-header-target"
+        }
+      ]
+    },
+    {
+      "id": "email-input",
+      "type": "default",
+      "data": {
+        "label": "Email Input"
+      },
+      "position": {
+        "x": 300,
+        "y": 410
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "email-input-target"
+        }
+      ]
+    },
+    {
+      "id": "password-input",
+      "type": "default",
+      "data": {
+        "label": "Password Input"
+      },
+      "position": {
+        "x": 300,
+        "y": 470
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "password-input-target"
+        }
+      ]
+    },
+    {
+      "id": "sign-in-btn",
+      "type": "default",
+      "data": {
+        "label": "Sign In Button"
+      },
+      "position": {
+        "x": 300,
+        "y": 530
+      },
+      "style": {
+        "background": "rgba(34, 197, 94, 0.5)",
+        "color": "black",
+        "borderRadius": "8px",
+        "width": "140px",
+        "boxShadow": "0 4px 12px rgba(0, 0, 0, 0.15)"
+      },
+      "handles": [
+        {
+          "type": "target",
+          "position": "left",
+          "id": "sign-in-btn-target"
+        },
+        {
+          "type": "source",
+          "position": "right",
+          "id": "sign-in-click"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "page-to-handleSignIn",
+      "source": "page-node",
+      "target": "handleSignIn",
+      "sourceHandle": "page-seq1",
+      "targetHandle": "handleSignIn-target"
+    },
+    {
+      "id": "handleSignIn-to-fetch",
+      "source": "handleSignIn",
+      "target": "fetch-call",
+      "sourceHandle": "handleSignIn-fetch",
+      "targetHandle": "fetch-target"
+    },
+    {
+      "id": "fetch-to-then",
+      "source": "fetch-call",
+      "target": "then-handler",
+      "sourceHandle": "fetch-then",
+      "targetHandle": "then-target"
+    },
+    {
+      "id": "then-to-response",
+      "source": "then-handler",
+      "target": "response-check",
+      "sourceHandle": "then-if",
+      "targetHandle": "response-target"
+    },
+    {
+      "id": "response-ok-to-router",
+      "source": "response-check",
+      "target": "router-push",
+      "sourceHandle": "response-ok",
+      "targetHandle": "router-target"
+    },
+    {
+      "id": "response-fail-to-alert",
+      "source": "response-check",
+      "target": "alert-invalid",
+      "sourceHandle": "response-fail",
+      "targetHandle": "alert-target"
+    },
+    {
+      "id": "fetch-to-catch",
+      "source": "fetch-call",
+      "target": "catch-handler",
+      "sourceHandle": "fetch-catch",
+      "targetHandle": "catch-target"
+    },
+    {
+      "id": "catch-to-console",
+      "source": "catch-handler",
+      "target": "console-error",
+      "sourceHandle": "catch-console",
+      "targetHandle": "console-target"
+    },
+    {
+      "id": "console-to-alert",
+      "source": "console-error",
+      "target": "alert-error",
+      "sourceHandle": "console-alert",
+      "targetHandle": "alert-error-target"
+    },
+    {
+      "id": "page-to-header",
+      "source": "page-node",
+      "target": "sign-in-header"
+    },
+    {
+      "id": "page-to-email",
+      "source": "page-node",
+      "target": "email-input"
+    },
+    {
+      "id": "page-to-password",
+      "source": "page-node",
+      "target": "password-input"
+    },
+    {
+      "id": "page-to-sign-in-btn",
+      "source": "page-node",
+      "target": "sign-in-btn"
+    },
+    {
+      "id": "sign-in-btn-click",
+      "source": "sign-in-btn",
+      "target": "handleSignIn",
+      "sourceHandle": "sign-in-click"
+    }
+  ]
+}

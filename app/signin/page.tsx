@@ -14,7 +14,7 @@ import {useState} from "react";
 
 /* Preload Function End */
 
-export default function Landing({/* Props */}) {
+export default function SignIn({/* Props */}) {
     {/* States */}
     const router = useRouter();
     const [email, setEmail] = useState("");
